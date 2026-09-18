@@ -16,8 +16,8 @@ movie_name = st.text_input("enter the popularity of the movie")
     # --- חלק הפלט והתוצאות ---
 
     
-    st.subheader("💡 תוצאת החיזוי עבור הסרט:")
+  
     st.write(response)
     
     # הבלטת מידע חשוב נוסף בעזרת צבע אחר
-    st.warning("⚠️ המלצת המודל: מומלץ להפיץ את הסרט במהלך חופשת הקיץ כדי למקסם רווחים.")
+   
