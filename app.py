@@ -17,7 +17,7 @@ movie_name = st.text_input("enter the popularity of the movie")
 
     
   
-    st.write(response)
+  
     
     # הבלטת מידע חשוב נוסף בעזרת צבע אחר
    
