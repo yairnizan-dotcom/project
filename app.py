@@ -14,9 +14,7 @@ movie_name = st.text_input("enter the popularity of the movie")
 
     
     # --- חלק הפלט והתוצאות ---
-    st.header("📊  תוצאות הניתוח")
-    
-    st.success("✅ הניתוח הושלם בהצלחה!")
+
     
     st.subheader("💡 תוצאת החיזוי עבור הסרט:")
     st.write(response)
