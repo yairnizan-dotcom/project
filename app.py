@@ -10,7 +10,7 @@ st.header("📝 הזנת פרטי הסרט")
 
 # תיבות קלט פשוטות וברורות
 movie_name = st.text_input("שם הסרט:", placeholder="לדוגמה: אווטאר")
-popularity = st.number_input("הכנס את מדד הפופולריות של הסרט (מ-1 עד 200):", min_value=1.0, max_value=200.0, value=50.0)
+popularity = st.number_input("הכנס את מדד הפופולריות של הסרט (מ-1 עד 100):", min_value=1.0, max_value=100.0, value=50.0)
 
 # --- כפתור הפעלה ---
 predict_button = st.button("🚀 חזה רווח צפוי")
