@@ -25,7 +25,7 @@ if predict_button:
             time.sleep(1)
         
         # חישוב מתמטי פשוט (לדוגמה: כל נקודת פופולריות שווה ל-5 מיליון דולר)
-        estimated_revenue = popularity * 5000000
+        estimated_revenue = popularity * 3300089.7859529243+11334117.004012793
         
         # יצירת תיבת תשובה מעוצבת ונקייה בעזרת st.success ו-st.metric
         st.success(f"📊 התחזית עבור הסרט: **{movie_name}** מוכנה!")
